@@ -176,13 +176,13 @@ spec:
                   - /bin/bash
                 env:
                   - name: TOTAL_CHAOS_DURATION
-                    value: "30"
+                    value: "15"
                   - name: RAMP_TIME
                     value: ""
                   - name: FORCE
                     value: "true"
                   - name: CHAOS_INTERVAL
-                    value: "7"
+                    value: "5"
                   - name: PODS_AFFECTED_PERC
                     value: ""
                   - name: TARGET_CONTAINER
@@ -252,13 +252,13 @@ spec:
                     components:
                       env:
                         - name: TOTAL_CHAOS_DURATION
-                          value: "30"
+                          value: "60"
                         - name: RAMP_TIME
                           value: ""
                         - name: FORCE
                           value: "true"
                         - name: CHAOS_INTERVAL
-                          value: "5"
+                          value: "7"
                         - name: PODS_AFFECTED_PERC
                           value: ""
                         - name: TARGET_CONTAINER
